@@ -20,10 +20,10 @@ export function Details() {
     navigate(-1);
   }
 
-  async function handleRemove(){
-    const confirm = window.confirm("Deseja realmente remover a nota?")
+  async function handleRemove() {
+    const confirm = window.confirm("Deseja realmente remover a nota?");
 
-    if(confirm){
+    if (confirm) {
       await api.delete(`/notes/${params.id}`);
       navigate(-1);
     }
@@ -44,13 +44,10 @@ export function Details() {
       {data && (
         <main>
           <Content>
-            <ButtonText 
-            title="Excluir nota" 
-            onClick={handleRemove}
-            />
+            <ButtonText title="Excluir nota" onClick={handleRemove} />
 
-            <h1>{data.title}</h1>
-            <p>{data.description}</p>
+            <h1>{data["0"] ? data["0"].title : data.title}</h1>
+            <p>{data["0"] ? data["0"].description : data.description}</p>
 
             {data.links && (
               <Section title="Links uteis">
