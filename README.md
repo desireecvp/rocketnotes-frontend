@@ -1,8 +1,39 @@
-# React + Vite
+<h3 align="center">Online personal notes</h3>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>Preview 🎥</h2>
 
-Currently, two official plugins are available:
+<div>
+<img src="./src/assets/screen1.png">
+<img src="./src/assets/screen2.png">
+<img src="./src/assets/screen3.png">
+<img src="./src/assets/screen4.png">
+<div/>
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Rocket Notes 
+
+- Project developed during the course Explorer from RocketSeat using React and Vite. 
+
+## Functions 
+- Sign Up
+- Sign In 
+- Edit password 
+- Add profile picture 
+- Create notes with observations and links 
+- Delete and edit 
+- Reset password
+
+---
+
+<h2>Technologies  🛠</h2>
+
+- HTML 
+- JavaScript 
+- React 
+- CSS-in-JS
+- Vite 
+- Styled Components 
+- React Router 
+- Git and Github 
+- Netlify 
+
