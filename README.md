@@ -1,20 +1,19 @@
-<h3 align="center">Online personal notes</h3>
-
-<h2>Preview 🎥</h2>
-
-<div>
-<img src="./src/assets/screen1.png">
-<img src="./src/assets/screen2.png">
-<img src="./src/assets/screen3.png">
-<img src="./src/assets/screen4.png">
-<div/>
----
-
-# Rocket Notes 
+<h1 align="center"> RocketNotes </h1>
 
 - Project developed during the course Explorer from RocketSeat using React and Vite. 
 
-## Functions 
+
+<h3>Preview 🎥</h3>
+
+<div>
+<img src="./src/assets/screen1.png">
+<img src="./src/assets/screen3.png">
+<div/>
+---
+
+
+<h2>Features 🛠️</h2>
+
 - Sign Up
 - Sign In 
 - Edit password 
@@ -25,7 +24,7 @@
 
 ---
 
-<h2>Technologies  🛠</h2>
+<h2>Technologies 💻</h2>
 
 - HTML 
 - JavaScript 
@@ -36,4 +35,9 @@
 - React Router 
 - Git and Github 
 - Netlify 
+
+<h2>Usage 💡</h2>
+
+- This project counts with a API that you can access [HERE](https://github.com/desireecvp/rocketnotes-api)
+
 
